@@ -20,7 +20,7 @@ end
 
 def kesha_maker(array)
   array.each do |word|
-    word.split 
+    word.insert(2, "$")
 end
 
 def find_a(array)
