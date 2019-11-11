@@ -20,7 +20,7 @@ end
 
 def kesha_maker(array)
   array.each do |word|
-    word.split.delete(word[3])
+    word.split.delete_at(3)
     word.insert(2, "$")
   end
 end
