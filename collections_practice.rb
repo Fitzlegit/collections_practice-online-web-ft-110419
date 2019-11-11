@@ -23,7 +23,7 @@ end
 def kesha_maker(array)
   array.each do |word|
     binding.pry
-    word.scan(",").delete_at(3)
+    word.split(" ").delete_at(3)
     word.insert(2, "$")
   end
 end
